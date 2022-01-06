@@ -1,0 +1,41 @@
+//BUTTONS TAB
+.button {
+    -fx-background-color:  #0b1317;
+    -fx-text-fill: #f7f7f7;
+    -fx-text-alignment: center;
+	-fx-background-radius: 30;
+}
+
+.button:hover {
+    -fx-background-color:  #6a6d6e;
+    -fx-text-fill: #f7f7f7;
+}
+
+.button:pressed {
+
+    -fx-background-color:  #6a6d6e;
+    -fx-text-fill: white;
+}
+
+.button:focused {
+    -fx-background-color: #6a6d6e;
+    -fx-text-fill: #f7f7f7;
+}
+
+//BUTTONS TAB
+.resetButton {
+    -fx-background-color:  #ea5b5f;
+    -fx-text-fill: #1d2327;
+    -fx-text-alignment: center;
+	-fx-background-radius: 30;
+}
+
+.resetButton:hover {
+    -fx-background-color:  #bb494c;
+    -fx-text-fill: #1d2327;
+}
+
+.resetButton:pressed {
+    -fx-background-color:  #bb494c;
+    -fx-text-fill: 1d2327;
+}
